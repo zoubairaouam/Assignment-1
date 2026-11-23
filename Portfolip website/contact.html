@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Contact | Zoubair Aouam</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <header class="header">
+    <a class="logo" href="index.html">Zoubair Aouam</a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav"><span class="menu-label">Menu</span></button>
+    <nav class="navigation" id="primary-nav" aria-label="Main navigation">
+      <ul class="nav-link">
+        <li><a href="index.html">About</a></li><li><a href="interests.html">Interests</a></li><li><a href="portfolio.html">Portfolio</a></li><li><a href="project-details.html">Project Details</a></li><li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <a class="visit-btn" href="https://github.com/za25agd" target="_blank" rel="noopener noreferrer">Visit GitHub <span class="visually-hidden">(opens in a new tab)</span></a>
+  </header>
+  <main id="main" class="section page-content">
+    <p class="eyebrow">Get in touch</p>
+    <h1>Contact <span class="gradient-text">Me</span></h1>
+    <p class="lead narrow">Use this form to prepare a message. This demonstration form validates input in your browser and does not send or store messages.</p>
+    <form class="contact-form" id="contact-form" novalidate>
+      <div class="form-field"><label for="name">Your name</label><input id="name" name="name" autocomplete="name" required aria-describedby="name-error"><p class="field-error" id="name-error"></p></div>
+      <div class="form-field"><label for="email">Email address</label><input id="email" name="email" type="email" autocomplete="email" required aria-describedby="email-error"><p class="field-error" id="email-error"></p></div>
+      <div class="form-field"><label for="subject">Subject</label><input id="subject" name="subject" required aria-describedby="subject-error"><p class="field-error" id="subject-error"></p></div>
+      <div class="form-field"><label for="message">Message</label><textarea id="message" name="message" rows="6" required aria-describedby="message-error"></textarea><p class="field-error" id="message-error"></p></div>
+      <button class="btn primary" type="submit">Validate message</button>
+      <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+    </form>
+  </main>
+  <footer class="footer">
+    <nav aria-label="Footer navigation"><ul><li><a href="index.html">About</a></li><li><a href="interests.html">Interests</a></li><li><a href="portfolio.html">Portfolio</a></li><li><a href="project-details.html">Project Details</a></li><li><a href="contact.html">Contact</a></li></ul></nav>
+    <p>Copyright &copy; 2026 Zoubair Aouam. All rights reserved.</p>
+  </footer>
+</body>
+</html>
